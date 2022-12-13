@@ -28,5 +28,5 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm test
-    - run: npm install --no-package-lock --no-save
+    - run: npm install
     - run: npm run deploy
